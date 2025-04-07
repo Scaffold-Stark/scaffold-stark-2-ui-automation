@@ -7,5 +7,6 @@ declare global {
 }
 
 export const endpoint = {
+  // Use docker container name inside Docker, fallback to localhost for local dev
   BASE_URL: process.env.BASE_URL || "http://localhost:3000",
 };

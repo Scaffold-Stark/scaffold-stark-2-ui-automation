@@ -1,0 +1,212 @@
+ui-automation-starknet-devnet-1  | Predeployed FeeToken
+ui-automation-starknet-devnet-1  | ETH Address: 0x49D36570D4E46F48E99674BD3FCC84644DDD6B96F7C741B1562B82F9E004DC7
+ui-automation-starknet-devnet-1  | Class Hash: 0x46DED64AE2DEAD6448E247234BAB192A9C483644395B66F2155F2614E5804B0
+ui-automation-starknet-devnet-1  | STRK Address: 0x4718F5A0FC34CC1AF16A1CDEE98FFB20C31F5CD61D6AB07201858F4287C938D
+ui-automation-starknet-devnet-1  | Class Hash: 0x46DED64AE2DEAD6448E247234BAB192A9C483644395B66F2155F2614E5804B0
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | Predeployed UDC
+ui-automation-starknet-devnet-1  | Address: 0x41A78E741E5AF2FEC34B695679BC6891742439F7AFB8484ECD7766661AD02BF
+ui-automation-starknet-devnet-1  | Class Hash: 0x7B3E05F48F0C69E4A65CE5E076A66271A527AFF2C34CE1083EC6E1526997A69
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | Chain ID: SN_SEPOLIA (0x534e5f5345504f4c4941)
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x64b48806902a367c8598f4f95c305e8c1a1acba5f082d294a43793113115691
+ui-automation-starknet-devnet-1  | | Private key     |  0x0000000000000000000000000000000071d7bb07b9a64f6f78ac4c816aff4da9
+ui-automation-starknet-devnet-1  | | Public key      |  0x039d9e6ce352ad4530a0ef5d5a18fd3303c3606a7fa6ac5b620020ad681cc33b
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x78662e7352d062084b0010068b99288486c2d8b914f6e2a55ce945f8792c8b1
+ui-automation-starknet-devnet-1  | | Private key     |  0x000000000000000000000000000000000e1406455b7d66b1690803be066cbe5e
+ui-automation-starknet-devnet-1  | | Public key      |  0x007a1bb2744a7dd29bffd44341dbd78008adb4bc11733601e7eddff322ada9cb
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x49dfb8ce986e21d354ac93ea65e6a11f639c1934ea253e5ff14ca62eca0f38e
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000a20a02f0ac53692d144b20cb371a60d7
+ui-automation-starknet-devnet-1  | | Public key      |  0x00b8fd4ddd415902d96f61b7ad201022d495997c2dff8eb9e0eb86253e30fabc
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x4f348398f859a55a0c80b1446c5fdc37edb3a8478a32f10764659fc241027d3
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000a641611c17d4d92bd0790074e34beeb7
+ui-automation-starknet-devnet-1  | | Public key      |  0x05e05d2510c6110bde03df9c1c126a1f592207d78cd9e481ac98540d5336d23c
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0xd513de92c16aa42418cf7e5b60f8022dbee1b4dfd81bcf03ebee079cfb5cb5
+ui-automation-starknet-devnet-1  | | Private key     |  0x000000000000000000000000000000005b4ac23628a5749277bcabbf4726b025
+ui-automation-starknet-devnet-1  | | Public key      |  0x04708e28e2424381659ea6b7dded2b3aff4b99debfcf6080160a9d098ac2214d
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x1e8c6c17efa3a047506c0b1610bd188aa3e3dd6c5d9227549b65428de24de78
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000836203aceb0e9b0066138c321dda5ae6
+ui-automation-starknet-devnet-1  | | Public key      |  0x0776d33371a98abee91ce60ac04321361565c8623cb612ee9357092da2162f51
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x557ba9ef60b52dad611d79b60563901458f2476a5c1002a8b4869fcb6654c7e
+ui-automation-starknet-devnet-1  | | Private key     |  0x0000000000000000000000000000000015b5e3013d752c909988204714f1ff35
+ui-automation-starknet-devnet-1  | | Public key      |  0x004236bd1a08ee4bc3288081dfaf2b71d9a6e6e573d1b31a62719db73a88bb55
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x3736286f1050d4ba816b4d56d15d80ca74c1752c4e847243f1da726c36e06f
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000a56597ba3378fa9e6440ea9ae0cf2865
+ui-automation-starknet-devnet-1  | | Public key      |  0x020b6aad24b5741eb49ed1b00ea78e3657e4d74af47e329f6f9fe489517474db
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x4d8bb41636b42d3c69039f3537333581cc19356a0c93904fa3e569498c23ad0
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000b467066159b295a7667b633d6bdaabac
+ui-automation-starknet-devnet-1  | | Public key      |  0x00c6c2f7833f681c8fe001533e99571f6ff8dec59268792a429a14b5b252f1ad
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x4b3f4ba8c00a02b66142a4b1dd41a4dfab4f92650922a3280977b0f03c75ee1
+ui-automation-starknet-devnet-1  | | Private key     |  0x0000000000000000000000000000000057b2f8431c772e647712ae93cc616638
+ui-automation-starknet-devnet-1  | | Public key      |  0x0374f7fcb50bc2d6b8b7a267f919232e3ac68354ce3eafe88d3df323fc1deb23
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | Predeployed accounts using class with hash: 0x061dac032f228abef9c6626f995015233097ae253a7f72d68552db02f2971b8f
+ui-automation-starknet-devnet-1  | Initial balance of each account: 1000000000000000000000 WEI and FRI
+ui-automation-starknet-devnet-1  | Seed to replicate this account sequence: 0
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:09:43.174449Z[0m [32m INFO[0m [2mstarknet_devnet[0m[2m:[0m Starknet Devnet listening on 0.0.0.0:5050
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:43.507787Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:45.490559Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:45.496725Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:47.466384Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:47.469843Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_chainId
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:47.575330Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_specVersion
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:47.635680Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:47.783046Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:47.943261Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:48.357256Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:50.134405Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:50.137594Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:51.881272Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:51.974253Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:52.098414Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:52.211140Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:52.583293Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:53.857374Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:53.860145Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:55.131191Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:55.211756Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:55.298893Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:55.390745Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:55.666301Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:57.259225Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:57.261660Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:58.855083Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:58.940250Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:59.045996Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:59.141650Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:11:59.475808Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:00.379025Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:00.381635Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:01.211886Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:01.252358Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:01.312463Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:01.370939Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:01.556836Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:02.449049Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:02.451599Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.342594Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.388725Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.451334Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.511240Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.709541Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.712599Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.715048Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.718301Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-05T17:12:03.806558Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addInvokeTransaction
+ui-automation-starknet-devnet-1  | Predeployed FeeToken
+ui-automation-starknet-devnet-1  | ETH Address: 0x49D36570D4E46F48E99674BD3FCC84644DDD6B96F7C741B1562B82F9E004DC7
+ui-automation-starknet-devnet-1  | Class Hash: 0x46DED64AE2DEAD6448E247234BAB192A9C483644395B66F2155F2614E5804B0
+ui-automation-starknet-devnet-1  | STRK Address: 0x4718F5A0FC34CC1AF16A1CDEE98FFB20C31F5CD61D6AB07201858F4287C938D
+ui-automation-starknet-devnet-1  | Class Hash: 0x46DED64AE2DEAD6448E247234BAB192A9C483644395B66F2155F2614E5804B0
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | Predeployed UDC
+ui-automation-starknet-devnet-1  | Address: 0x41A78E741E5AF2FEC34B695679BC6891742439F7AFB8484ECD7766661AD02BF
+ui-automation-starknet-devnet-1  | Class Hash: 0x7B3E05F48F0C69E4A65CE5E076A66271A527AFF2C34CE1083EC6E1526997A69
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | Chain ID: SN_SEPOLIA (0x534e5f5345504f4c4941)
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x64b48806902a367c8598f4f95c305e8c1a1acba5f082d294a43793113115691
+ui-automation-starknet-devnet-1  | | Private key     |  0x0000000000000000000000000000000071d7bb07b9a64f6f78ac4c816aff4da9
+ui-automation-starknet-devnet-1  | | Public key      |  0x039d9e6ce352ad4530a0ef5d5a18fd3303c3606a7fa6ac5b620020ad681cc33b
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x78662e7352d062084b0010068b99288486c2d8b914f6e2a55ce945f8792c8b1
+ui-automation-starknet-devnet-1  | | Private key     |  0x000000000000000000000000000000000e1406455b7d66b1690803be066cbe5e
+ui-automation-starknet-devnet-1  | | Public key      |  0x007a1bb2744a7dd29bffd44341dbd78008adb4bc11733601e7eddff322ada9cb
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x49dfb8ce986e21d354ac93ea65e6a11f639c1934ea253e5ff14ca62eca0f38e
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000a20a02f0ac53692d144b20cb371a60d7
+ui-automation-starknet-devnet-1  | | Public key      |  0x00b8fd4ddd415902d96f61b7ad201022d495997c2dff8eb9e0eb86253e30fabc
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x4f348398f859a55a0c80b1446c5fdc37edb3a8478a32f10764659fc241027d3
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000a641611c17d4d92bd0790074e34beeb7
+ui-automation-starknet-devnet-1  | | Public key      |  0x05e05d2510c6110bde03df9c1c126a1f592207d78cd9e481ac98540d5336d23c
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0xd513de92c16aa42418cf7e5b60f8022dbee1b4dfd81bcf03ebee079cfb5cb5
+ui-automation-starknet-devnet-1  | | Private key     |  0x000000000000000000000000000000005b4ac23628a5749277bcabbf4726b025
+ui-automation-starknet-devnet-1  | | Public key      |  0x04708e28e2424381659ea6b7dded2b3aff4b99debfcf6080160a9d098ac2214d
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x1e8c6c17efa3a047506c0b1610bd188aa3e3dd6c5d9227549b65428de24de78
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000836203aceb0e9b0066138c321dda5ae6
+ui-automation-starknet-devnet-1  | | Public key      |  0x0776d33371a98abee91ce60ac04321361565c8623cb612ee9357092da2162f51
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x557ba9ef60b52dad611d79b60563901458f2476a5c1002a8b4869fcb6654c7e
+ui-automation-starknet-devnet-1  | | Private key     |  0x0000000000000000000000000000000015b5e3013d752c909988204714f1ff35
+ui-automation-starknet-devnet-1  | | Public key      |  0x004236bd1a08ee4bc3288081dfaf2b71d9a6e6e573d1b31a62719db73a88bb55
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x3736286f1050d4ba816b4d56d15d80ca74c1752c4e847243f1da726c36e06f
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000a56597ba3378fa9e6440ea9ae0cf2865
+ui-automation-starknet-devnet-1  | | Public key      |  0x020b6aad24b5741eb49ed1b00ea78e3657e4d74af47e329f6f9fe489517474db
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x4d8bb41636b42d3c69039f3537333581cc19356a0c93904fa3e569498c23ad0
+ui-automation-starknet-devnet-1  | | Private key     |  0x00000000000000000000000000000000b467066159b295a7667b633d6bdaabac
+ui-automation-starknet-devnet-1  | | Public key      |  0x00c6c2f7833f681c8fe001533e99571f6ff8dec59268792a429a14b5b252f1ad
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | | Account address |  0x4b3f4ba8c00a02b66142a4b1dd41a4dfab4f92650922a3280977b0f03c75ee1
+ui-automation-starknet-devnet-1  | | Private key     |  0x0000000000000000000000000000000057b2f8431c772e647712ae93cc616638
+ui-automation-starknet-devnet-1  | | Public key      |  0x0374f7fcb50bc2d6b8b7a267f919232e3ac68354ce3eafe88d3df323fc1deb23
+ui-automation-starknet-devnet-1  | 
+ui-automation-starknet-devnet-1  | Predeployed accounts using class with hash: 0x061dac032f228abef9c6626f995015233097ae253a7f72d68552db02f2971b8f
+ui-automation-starknet-devnet-1  | Initial balance of each account: 1000000000000000000000 WEI and FRI
+ui-automation-starknet-devnet-1  | Seed to replicate this account sequence: 0
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:24:12.712620Z[0m [32m INFO[0m [2mstarknet_devnet[0m[2m:[0m Starknet Devnet listening on 0.0.0.0:5050
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:24:56.566574Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:24:58.495795Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:24:58.500787Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:00.563010Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:00.566514Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_chainId
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:00.684498Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_specVersion
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:00.744861Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:00.892766Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:01.059534Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:01.483643Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:03.290040Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:03.293567Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:05.234135Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:05.356130Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:05.491385Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:05.608650Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:05.995112Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:07.271849Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:07.274689Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:08.548040Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:08.626476Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:08.713122Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:08.799485Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:09.085608Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:10.726771Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:10.729609Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:12.436080Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:12.549870Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:12.664794Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:12.764094Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:13.111296Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:13.982941Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:13.985486Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:14.866017Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:14.907912Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:14.971094Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:15.028225Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:15.225933Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClassAt
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:16.170225Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getClass
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:16.172871Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.070480Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.116522Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.180032Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.243954Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addDeclareTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.441958Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_call
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.444896Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.447655Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getNonce
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.451219Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_estimateFee
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:17.539168Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_addInvokeTransaction
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:49.613656Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getBlockWithTxHashes
+ui-automation-starknet-devnet-1  | [2m2025-04-07T01:25:49.642620Z[0m [32m INFO[0m [2mrpc[0m[2m:[0m received method in on_request starknet_getBlockWithTxHashes

@@ -10,8 +10,8 @@ services:
 
   nextjs:
     build:
-      context: ..
-      dockerfile: ui-automation/Dockerfile.nextjs
+      context: ../..
+      dockerfile: packages/ui-automation/Dockerfile.nextjs
       args:
         - RPC_URL_DEVNET=http://starknet-devnet:5050
         - NEXT_PUBLIC_RPC_URL_DEVNET=http://starknet-devnet:5050
@@ -29,8 +29,8 @@ services:
 
   playwright:
     build:
-      context: ..
-      dockerfile: ui-automation/Dockerfile.playwright
+      context: ../..
+      dockerfile: packages/ui-automation/Dockerfile.playwright
       no_cache: true
     pull_policy: always
     deploy:

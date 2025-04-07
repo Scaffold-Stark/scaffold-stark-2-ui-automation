@@ -1,9 +1,10 @@
 {
-  "name": "ui-automation",
+  "name": "@ss-2/ui-automation",
   "version": "1.0.0",
   "description": "A project for using playwright for end-to-end testing purpose with docker for deployment",
   "scripts": {
     "test": "playwright test --workers=1",
+    "setup": "playwright install",
     "clear-test-results": "rimraf test-results/*",
     "test-html-report": "playwright test --browser=all --reporter=html",
     "test-json-report": "PLAYWRIGHT_JSON_OUTPUT_NAME=results.json playwright test --browser=chromium --reporter=json"
