@@ -13,8 +13,36 @@ while ! curl -s $RPC_URL_DEVNET > /dev/null; do
     sleep 2
 done
 
-cd /app/packages/snfoundry
-yarn deploy
+cd /app
+echo "Current directory: $(pwd)"
+echo "Listing directory contents:"
+ls -la
 
-cd /app/packages/nextjs
-exec yarn dev 
+# Check if snfoundry directory exists
+if [ -d "snfoundry" ]; then
+    cd snfoundry
+    echo "Deploying contracts..."
+    yarn deploy
+    cd ..
+elif [ -d "packages/snfoundry" ]; then
+    cd packages/snfoundry
+    echo "Deploying contracts..."
+    yarn deploy
+    cd ../..
+else
+    echo "Warning: snfoundry directory not found, skipping deployment"
+fi
+
+# Check if nextjs directory exists
+if [ -d "nextjs" ]; then
+    cd nextjs
+    echo "Starting Next.js dev server..."
+    exec yarn dev
+elif [ -d "packages/nextjs" ]; then
+    cd packages/nextjs
+    echo "Starting Next.js dev server..."
+    exec yarn dev
+else
+    echo "Error: nextjs directory not found"
+    exit 1
+fi 

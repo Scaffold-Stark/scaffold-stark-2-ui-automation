@@ -21,10 +21,17 @@ ENV NEXT_PUBLIC_RPC_URL_DEVNET=${NEXT_PUBLIC_RPC_URL_DEVNET}
 
 WORKDIR /app
 
-COPY . .
-
-RUN yarn install
-COPY ./ui-automation/docker-entrypoint.sh /docker-entrypoint.sh
+# Preserve the directory structure from the original project
+COPY ./nextjs /app/nextjs
+COPY ./snfoundry /app/snfoundry
+COPY ui-automation/docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x /docker-entrypoint.sh
+
+# Install dependencies in nextjs directory
+WORKDIR /app/nextjs
+RUN yarn install --frozen-lockfile
+
+# Return to app directory
+WORKDIR /app
 
 ENTRYPOINT ["/docker-entrypoint.sh"]

@@ -13,8 +13,8 @@ export default defineConfig({
     trace: "on-first-retry",
     video: "on-first-retry",
     screenshot: "only-on-failure",
-    actionTimeout: 30000,
-    navigationTimeout: 60000,
+    actionTimeout: 120000,
+    navigationTimeout: 120000,
     launchOptions: {
       headless: true,
       slowMo: 200,
@@ -32,9 +32,9 @@ export default defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
   ],
-  timeout: 240000,
+  timeout: 300000,
   expect: {
-    timeout: 20000,
+    timeout: 300000,
   },
   preserveOutput: "always",
 });

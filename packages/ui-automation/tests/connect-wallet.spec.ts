@@ -7,6 +7,126 @@ import { captureError } from "./utils/error-handler";
 const burnerAccounts = ["0x64b4...5691", "0xd513...5cb5", "0x4b3f...5ee1"];
 
 /**
+ * Tests connecting to the dApp with Argent X wallet
+ * Verifies the wallet extension is detected and connection dialog appears
+ */
+test("Connect with Argent X wallet", async ({ page }) => {
+  test.setTimeout(60000);
+  const testTimestamp = Date.now();
+  const testId = `connect-argentx-${testTimestamp}`;
+
+  try {
+    await navigateAndWait(page, endpoint.BASE_URL);
+
+    const homePage = new HomePage(page);
+
+    try {
+      await homePage.safeClick(homePage.getConnectButton(), "Connect button");
+
+      await expect(
+        page.getByRole("heading", { name: "Connect a Wallet", level: 3 }),
+      ).toBeVisible();
+
+      await homePage.safeClick(
+        homePage.getConnecterButton("Argent X"),
+        "Argent X button",
+      );
+
+      const argentXDialog = page
+        .locator("text=/Install Argent X|Argent X not detected/")
+        .first();
+
+      if (await argentXDialog.isVisible({ timeout: 5000 }).catch(() => false)) {
+        test.fail(
+          true,
+          "Test failed: Argent X wallet extension is not installed in the browser",
+        );
+        return;
+      } else {
+        try {
+          await expect(
+            page.locator("text=/Connect|Approve|Confirm/i"),
+          ).toBeVisible({ timeout: 10000 });
+          console.log("Argent X wallet extension detected successfully");
+        } catch (e) {
+          test.fail(
+            true,
+            "Test failed: Could not detect Argent X connection dialog. Wallet may not be installed.",
+          );
+        }
+      }
+    } catch (error) {
+      throw error;
+    }
+  } catch (error) {
+    test.fail(
+      true,
+      `Failed to connect with Argent X wallet: ${error instanceof Error ? error.message : String(error)}`,
+    );
+  }
+});
+
+/**
+ * Tests connecting to the dApp with Braavos wallet
+ * Verifies the wallet extension is detected and connection dialog appears
+ */
+test("Connect with Braavos wallet", async ({ page }) => {
+  test.setTimeout(60000);
+  const testTimestamp = Date.now();
+  const testId = `connect-braavos-${testTimestamp}`;
+
+  try {
+    await navigateAndWait(page, endpoint.BASE_URL);
+
+    const homePage = new HomePage(page);
+
+    try {
+      await homePage.safeClick(homePage.getConnectButton(), "Connect button");
+
+      await expect(
+        page.getByRole("heading", { name: "Connect a Wallet", level: 3 }),
+      ).toBeVisible();
+
+      await homePage.safeClick(
+        homePage.getConnecterButton("Braavos"),
+        "Braavos button",
+      );
+
+      const braavosDialog = page
+        .locator("text=/Install Braavos|Braavos not detected/")
+        .first();
+
+      if (await braavosDialog.isVisible({ timeout: 5000 }).catch(() => false)) {
+        test.fail(
+          true,
+          "Test failed: Braavos wallet extension is not installed in the browser",
+        );
+        return;
+      } else {
+        try {
+          await expect(
+            page.locator("text=/Connect|Approve|Confirm/i"),
+          ).toBeVisible({ timeout: 10000 });
+          console.log("Braavos wallet extension detected successfully");
+        } catch (e) {
+          test.fail(
+            true,
+            "Test failed: Could not detect Braavos connection dialog. Wallet may not be installed.",
+          );
+        }
+      }
+    } catch (error) {
+      throw error;
+    }
+  } catch (error) {
+    test.fail(
+      true,
+      `Failed to connect with Braavos wallet: ${error instanceof Error ? error.message : String(error)}`,
+    );
+  }
+});
+
+/**
  * Tests connecting to the dApp with different Burner Wallet accounts
  * Iterates through predefined accounts and verifies successful connection for each
  */
@@ -24,12 +144,12 @@ for (const account of burnerAccounts) {
       try {
         await homePage.safeClick(homePage.getConnectButton(), "Connect button");
         await expect(
-          page.getByRole("heading", { name: "Connect a Wallet", level: 3 })
+          page.getByRole("heading", { name: "Connect a Wallet", level: 3 }),
         ).toBeVisible();
 
         await homePage.safeClick(
           homePage.getConnecterButton("Burner Wallet"),
-          "Burner Wallet button"
+          "Burner Wallet button",
         );
 
         const button = homePage.getAccountButton(account);
@@ -56,131 +176,11 @@ for (const account of burnerAccounts) {
     } catch (error) {
       test.fail(
         true,
-        `Failed to connect with Burner wallet ${account}: ${error instanceof Error ? error.message : String(error)}`
+        `Failed to connect with Burner wallet ${account}: ${error instanceof Error ? error.message : String(error)}`,
       );
     }
   });
 }
-
-/**
- * Tests connecting to the dApp with Argent X wallet
- * Verifies the wallet extension is detected and connection dialog appears
- */
-test("Connect with Argent X wallet", async ({ page }) => {
-  test.setTimeout(60000);
-  const testTimestamp = Date.now();
-  const testId = `connect-argentx-${testTimestamp}`;
-
-  try {
-    await navigateAndWait(page, endpoint.BASE_URL);
-
-    const homePage = new HomePage(page);
-
-    try {
-      await homePage.safeClick(homePage.getConnectButton(), "Connect button");
-
-      await expect(
-        page.getByRole("heading", { name: "Connect a Wallet", level: 3 })
-      ).toBeVisible();
-
-      await homePage.safeClick(
-        homePage.getConnecterButton("Argent X"),
-        "Argent X button"
-      );
-
-      const argentXDialog = page
-        .locator("text=/Install Argent X|Argent X not detected/")
-        .first();
-
-      if (await argentXDialog.isVisible({ timeout: 5000 }).catch(() => false)) {
-        test.fail(
-          true,
-          "Test failed: Argent X wallet extension is not installed in the browser"
-        );
-        return;
-      } else {
-        try {
-          await expect(
-            page.locator("text=/Connect|Approve|Confirm/i")
-          ).toBeVisible({ timeout: 10000 });
-          console.log("Argent X wallet extension detected successfully");
-        } catch (e) {
-          test.fail(
-            true,
-            "Test failed: Could not detect Argent X connection dialog. Wallet may not be installed."
-          );
-        }
-      }
-    } catch (error) {
-      throw error;
-    }
-  } catch (error) {
-    test.fail(
-      true,
-      `Failed to connect with Argent X wallet: ${error instanceof Error ? error.message : String(error)}`
-    );
-  }
-});
-
-/**
- * Tests connecting to the dApp with Braavos wallet
- * Verifies the wallet extension is detected and connection dialog appears
- */
-test("Connect with Braavos wallet", async ({ page }) => {
-  test.setTimeout(60000);
-  const testTimestamp = Date.now();
-  const testId = `connect-braavos-${testTimestamp}`;
-
-  try {
-    await navigateAndWait(page, endpoint.BASE_URL);
-
-    const homePage = new HomePage(page);
-
-    try {
-      await homePage.safeClick(homePage.getConnectButton(), "Connect button");
-
-      await expect(
-        page.getByRole("heading", { name: "Connect a Wallet", level: 3 })
-      ).toBeVisible();
-
-      await homePage.safeClick(
-        homePage.getConnecterButton("Braavos"),
-        "Braavos button"
-      );
-
-      const braavosDialog = page
-        .locator("text=/Install Braavos|Braavos not detected/")
-        .first();
-
-      if (await braavosDialog.isVisible({ timeout: 5000 }).catch(() => false)) {
-        test.fail(
-          true,
-          "Test failed: Braavos wallet extension is not installed in the browser"
-        );
-        return;
-      } else {
-        try {
-          await expect(
-            page.locator("text=/Connect|Approve|Confirm/i")
-          ).toBeVisible({ timeout: 10000 });
-          console.log("Braavos wallet extension detected successfully");
-        } catch (e) {
-          test.fail(
-            true,
-            "Test failed: Could not detect Braavos connection dialog. Wallet may not be installed."
-          );
-        }
-      }
-    } catch (error) {
-      throw error;
-    }
-  } catch (error) {
-    test.fail(
-      true,
-      `Failed to connect with Braavos wallet: ${error instanceof Error ? error.message : String(error)}`
-    );
-  }
-});
 
 /**
  * Verifies all wallet connection options are available
@@ -202,7 +202,7 @@ test("Verify all wallet options and Burner accounts are visible", async ({
       await homePage.safeClick(homePage.getConnectButton(), "Connect button");
 
       await expect(
-        page.getByRole("heading", { name: "Connect a Wallet", level: 3 })
+        page.getByRole("heading", { name: "Connect a Wallet", level: 3 }),
       ).toBeVisible();
 
       await expect(homePage.getConnecterButton("Argent X")).toBeVisible();
@@ -211,7 +211,7 @@ test("Verify all wallet options and Burner accounts are visible", async ({
 
       await homePage.safeClick(
         homePage.getConnecterButton("Burner Wallet"),
-        "Burner Wallet button"
+        "Burner Wallet button",
       );
 
       let visibleAccounts = 0;
@@ -223,7 +223,7 @@ test("Verify all wallet options and Burner accounts are visible", async ({
           await captureError(
             page,
             error,
-            `Check visibility of account ${account}`
+            `Check visibility of account ${account}`,
           );
           console.error(`Account ${account} is not visible`);
         }
@@ -233,7 +233,7 @@ test("Verify all wallet options and Burner accounts are visible", async ({
       } else {
         test.fail(
           true,
-          `Only ${visibleAccounts}/${burnerAccounts.length} burner accounts are visible`
+          `Only ${visibleAccounts}/${burnerAccounts.length} burner accounts are visible`,
         );
       }
     } catch (error) {
@@ -242,7 +242,7 @@ test("Verify all wallet options and Burner accounts are visible", async ({
   } catch (error) {
     test.fail(
       true,
-      `Failed to verify wallet options: ${error instanceof Error ? error.message : String(error)}`
+      `Failed to verify wallet options: ${error instanceof Error ? error.message : String(error)}`,
     );
   }
 });
