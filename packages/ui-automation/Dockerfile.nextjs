@@ -26,4 +26,6 @@ COPY . .
 COPY ./packages/ui-automation/docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x /docker-entrypoint.sh
 
+RUN yarn install --immutable
+
 ENTRYPOINT ["/docker-entrypoint.sh"]

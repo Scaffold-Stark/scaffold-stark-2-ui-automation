@@ -15,6 +15,7 @@ type StructProps = {
   abiMember?: AbiStruct | AbiEnum;
   setFormErrorMessage: Dispatch<SetStateAction<FormErrorMessageState>>;
   isDisabled?: boolean;
+  testId?: string;
 };
 
 export const Struct = ({
@@ -25,6 +26,7 @@ export const Struct = ({
   abi,
   setFormErrorMessage,
   isDisabled = false,
+  testId,
 }: StructProps) => {
   const [form, setForm] = useState<Record<string, any>>(() =>
     getInitialTupleFormState(
@@ -70,6 +72,7 @@ export const Struct = ({
   return (
     <div>
       <div
+        data-testid={`click-${testId}-field`}
         className={`collapse bg-base-200 pl-4 pt-1.5 pb-2 border-2 ${
           isDisabled ? "border-base-100 cursor-not-allowed" : "border-secondary"
         } custom-after`}

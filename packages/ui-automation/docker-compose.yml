@@ -15,7 +15,7 @@ services:
       dockerfile: packages/ui-automation/Dockerfile.nextjs
       args:
         - RPC_URL_DEVNET=http://starknet-devnet:5050
-        - NEXT_PUBLIC_RPC_URL_DEVNET=http://starknet-devnet:5050
+        - NEXT_PUBLIC_PROVIDER_URL=http://starknet-devnet:5050
     pull_policy: missing
     depends_on:
       - starknet-devnet
@@ -23,14 +23,14 @@ services:
       - "3000:3000"
     environment:
       - RPC_URL_DEVNET=http://starknet-devnet:5050
-      - NEXT_PUBLIC_RPC_URL_DEVNET=http://starknet-devnet:5050
+      - NEXT_PUBLIC_PROVIDER_URL=http://starknet-devnet:5050
     networks:
       - scaffold-stark-network
     entrypoint: ["/docker-entrypoint.sh"]
     hostname: nextjs
 
   playwright:
-    image: mcr.microsoft.com/playwright:v1.46.1
+    image: mcr.microsoft.com/playwright:latest
     pull_policy: always
     deploy:
       replicas: 1
@@ -38,12 +38,10 @@ services:
         condition: none
     depends_on:
       - nextjs
+      - starknet-devnet
     shm_size: "2gb"
     environment:
       - BASE_URL=http://nextjs:3000
-      - PLAYWRIGHT_BROWSER_CHROMIUM_CHANNEL=chrome
-      - RPC_URL_DEVNET=http://starknet-devnet:5050
-      - NEXT_PUBLIC_RPC_URL_DEVNET=http://starknet-devnet:5050
     volumes:
       - ../ui-automation:/app
       - ./test-results:/app/test-results

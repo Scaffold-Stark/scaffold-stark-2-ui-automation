@@ -12,6 +12,9 @@ const Home = () => {
         </h1>
         <ConnectedAddress />
         <p className="text-center text-lg">
+          RPC:{" "}
+          {process.env.NEXT_PUBLIC_RPC_URL_DEVNET ||
+            process.env.NEXT_PUBLIC_PROVIDER_URL}
           Edit your smart contract{" "}
           <code className="bg-underline italic text-base font-bold max-w-full break-words break-all inline-block">
             YourContract.cairo

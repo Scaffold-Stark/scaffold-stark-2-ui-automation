@@ -68,6 +68,7 @@ export const ContractInput = ({
           setParentForm={setForm}
           setFormErrorMessage={setFormErrorMessage}
           isDisabled={isDisabled}
+          testId={paramType.type}
         />
       );
     }
@@ -114,6 +115,7 @@ export const ContractInput = ({
             (member) => member.name === paramType.type,
           )}
           isDisabled={isDisabled}
+          testId={paramType.type}
         />
       );
     }

@@ -19,6 +19,7 @@ type ArrayProps = {
   parentStateObjectKey: string;
   setFormErrorMessage: Dispatch<SetStateAction<FormErrorMessageState>>;
   isDisabled?: boolean;
+  testId?: string;
 };
 
 export const ArrayInput = ({
@@ -29,6 +30,7 @@ export const ArrayInput = ({
   abiParameter,
   setFormErrorMessage,
   isDisabled,
+  testId,
 }: ArrayProps) => {
   // array in object representation
   const [inputArr, setInputArr] = useState<any>({});
@@ -96,6 +98,7 @@ export const ArrayInput = ({
                   } as AbiParameter
                 }
                 setFormErrorMessage={setFormErrorMessage}
+                testId={`${abiParameter.name}[${index}]`}
               />
             );
           })}
