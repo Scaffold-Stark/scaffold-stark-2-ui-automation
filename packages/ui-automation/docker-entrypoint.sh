@@ -18,14 +18,16 @@ echo "Current directory: $(pwd)"
 echo "Listing directory contents:"
 ls -la
 
+yarn install --frozen-lockfile
+
 # Check if snfoundry directory exists
 if [ -d "snfoundry" ]; then
     cd snfoundry
     echo "Deploying contracts..."
     yarn deploy
     cd ..
-elif [ -d "packages/snfoundry" ]; then
-    cd packages/snfoundry
+elif [ -d "./packages/snfoundry" ]; then
+    cd ./packages/snfoundry
     echo "Deploying contracts..."
     yarn deploy
     cd ../..
@@ -37,12 +39,14 @@ fi
 if [ -d "nextjs" ]; then
     cd nextjs
     echo "Starting Next.js dev server..."
-    exec yarn dev
-elif [ -d "packages/nextjs" ]; then
-    cd packages/nextjs
+    exec yarn start
+elif [ -d "./packages/nextjs" ]; then
+    cd ./packages/nextjs
     echo "Starting Next.js dev server..."
-    exec yarn dev
+    exec yarn start
 else
     echo "Error: nextjs directory not found"
     exit 1
 fi 
+
+echo "Done"
