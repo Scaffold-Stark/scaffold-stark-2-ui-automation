@@ -153,6 +153,7 @@ test("Connect with Argent X wallet", async () => {
               true,
               "Test failed: Could not detect Argent X connection dialog. Wallet may not be installed."
             );
+            return
           }
 
           await argentXWalletPage.clickConnect();
@@ -161,7 +162,7 @@ test("Connect with Argent X wallet", async () => {
         } catch (e) {
           test.fail(
             true,
-            "Test failed: Could not detect Argent X connection dialog. Wallet may not be installed. " + e
+            "Test failed: Could not detect Argent X connection dialog. Wallet may not be installed. "
           );
         }
       }
